@@ -1,0 +1,52 @@
+
+@import url("https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@1,600&display=swap");
+
+.header {
+  background-color: #5a9b2c;
+}
+h1 {
+
+  font-size: 45px;
+  color: #7e0315;
+}
+
+body {
+  font-family: "Cormorant Garamond", serif;
+  background-color: #5a9b2c;
+}
+.rose-style {
+  border: 1px solid #7e0315;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 80%;
+  height: 80%;
+}
+.rose-style h1 {
+  color: #7e0315;
+  font-size: 20px;
+  font-style: bold;
+  text-transform: uppercase;
+}
+.rose-style img {
+  border-radius: 5px;
+  width: 250px;
+  height: 250px;
+  box-shadow: 5px 5px 10px #7e0315;
+}
+.btn {
+  background-color: #0b3b07;
+  color: #7e0315;
+  text-transform: uppercase;
+  margin-bottom: 5px;
+  border: 1px solid #7e0315;
+}
+.btn a {
+  color: #140104;
+  font-size: 13px;
+  text-decoration: none;
+}
+.btn:hover {
+  background-color: #7e0315;
+  color: #0b3b07;
+}
